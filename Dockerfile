@@ -10,7 +10,7 @@ LABEL "com.github.actions.description"="Deploying your Middleman repo to the gh-
 LABEL "com.github.actions.icon"="box"
 LABEL "com.github.actions.color"="orange"
 
-LABEL "repository"="http://github.com/yurikoval/middleman-gh-pages-action"
+LABEL "repository"="http://github.com/sumikawa/middleman-gh-pages-action"
 
 RUN apt-get update; \
   apt-get install -y --no-install-recommends nodejs
