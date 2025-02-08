@@ -8,6 +8,9 @@ gem install bundler
 bundle install
 bundle list | grep "middleman ("
 
+echo 'Remove secret pages temporary'
+rm source/diary/*/*-secret*
+
 echo 'Building site...'
 bundle exec middleman build
 
